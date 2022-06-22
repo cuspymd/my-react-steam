@@ -1,0 +1,61 @@
+.menu {
+  width: 1441px;
+  height: 132px;
+  place-content: center;
+  align-items: flex-start;
+  gap: 1048px;
+  padding: 46px 287px;
+  position: absolute;
+  left: -2px;
+  top: 0;
+  overflow: hidden;
+}
+.sTAEM {
+  color: #fff;
+  font-size: 40px;
+  line-height: 95.6%;
+  font-weight: bold;
+  font-family: Noto Sans, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  align-items: center;
+  white-space: nowrap;
+}
+.group19 {
+  width: 153px;
+  height: 40px;
+  position: relative;
+}
+.rectangle12 {
+  width: 153px;
+  height: 40px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow: visible;
+}
+.install {
+  color: #fff;
+  font-size: 16px;
+  line-height: 95.6%;
+  font-weight: bold;
+  font-family: Noto Sans, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  align-items: center;
+  position: absolute;
+  left: 42.4836%;
+  right: 23.5294%;
+  top: 30%;
+  bottom: 32.5%;
+  white-space: nowrap;
+}
+.entypoInstall1 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 18.9542%;
+  right: 67.9738%;
+  top: 25%;
+  bottom: 25%;
+}

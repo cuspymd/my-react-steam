@@ -1,0 +1,116 @@
+.newTrending {
+  width: 1440px;
+  height: 169px;
+  align-items: flex-start;
+  position: absolute;
+  left: -2px;
+  top: 703px;
+  overflow: hidden;
+}
+.rectangle8 {
+  width: 127px;
+  height: 10px;
+  position: absolute;
+  left: 370px;
+  top: 44px;
+  border-radius: 20px;
+  background-color: #214b6b;
+}
+.newTrending2 {
+  color: #fff;
+  font-size: 36px;
+  line-height: 95.6%;
+  font-weight: bold;
+  font-family: Noto Sans, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  align-items: center;
+  position: absolute;
+  left: 71px;
+  top: 32px;
+  white-space: nowrap;
+}
+.rectangle9 {
+  width: 127px;
+  height: 10px;
+  position: absolute;
+  left: -74px;
+  top: 44px;
+  border-radius: 20px;
+  background-color: #214b6b;
+}
+.rectangle11 {
+  width: 273px;
+  height: 40px;
+  position: absolute;
+  left: 71px;
+  top: 101px;
+  border-radius: 30px;
+  background-color: #1a3a53;
+}
+.search {
+  opacity: 0.5;
+  color: #fff;
+  font-size: 16px;
+  line-height: 95.6%;
+  font-weight: 600;
+  font-family: Noto Sans, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  width: 200px;
+  height: 40px;
+  align-items: center;
+  position: absolute;
+  left: 94px;
+  top: 101px;
+}
+.rectangle112 {
+  width: 273px;
+  height: 40px;
+  position: absolute;
+  left: 1095px;
+  top: 101px;
+  border-radius: 30px;
+  background-color: #1a3a53;
+}
+.price {
+  color: #fff;
+  font-size: 16px;
+  line-height: 95.6%;
+  font-weight: 600;
+  font-family: Noto Sans, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  width: 200px;
+  height: 40px;
+  align-items: center;
+  position: absolute;
+  left: 1118px;
+  top: 101px;
+}
+.majesticonsChevronDownLine1 {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 1302px;
+  top: 109px;
+  overflow: hidden;
+}
+.sortBy {
+  color: #fff;
+  font-size: 16px;
+  line-height: 95.6%;
+  font-weight: 600;
+  font-family: Noto Sans, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  align-items: center;
+  position: absolute;
+  left: 1012px;
+  top: 113px;
+  white-space: nowrap;
+}
+.vector {
+  position: absolute;
+  left: 92.9166%;
+  right: 6.1574%;
+  top: 69.8224%;
+  bottom: 26.2327%;
+  overflow: visible;
+}

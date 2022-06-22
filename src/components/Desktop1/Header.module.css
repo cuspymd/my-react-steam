@@ -1,0 +1,56 @@
+.header {
+  width: 1440px;
+  height: 494px;
+  align-items: flex-start;
+  position: absolute;
+  left: -1px;
+  top: 155px;
+  overflow: hidden;
+}
+.image4 {
+  width: 822px;
+  height: 384px;
+  position: absolute;
+  left: 309px;
+  top: 34px;
+  border-radius: 30px;
+  background-image:/* webpackIgnore: true */ url("assets/image4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 13px 50px 6px #00000047;
+}
+.image5 {
+  width: 578px;
+  height: 270px;
+  position: absolute;
+  left: -315px;
+  top: 92px;
+  border-radius: 30px;
+  opacity: 0.5;
+  background-image:/* webpackIgnore: true */ url("assets/image5.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image6 {
+  width: 578px;
+  height: 270px;
+  position: absolute;
+  left: 1177px;
+  top: 91px;
+  border-radius: 30px;
+  opacity: 0.5;
+  background-image:/* webpackIgnore: true */ url("assets/image6.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.group17 {
+  width: 202px;
+  height: 15px;
+  position: absolute;
+  left: 619px;
+  top: 452px;
+  overflow: visible;
+}
