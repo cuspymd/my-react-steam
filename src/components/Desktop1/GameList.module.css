@@ -9,7 +9,7 @@
   top: 824px;
   overflow: hidden;
 }
-.frame21 {
+.gameFrame {
   width: 1300px;
   height: 245px;
   align-items: flex-start;
@@ -18,18 +18,7 @@
   background-color: #17202d;
   overflow: hidden;
 }
-.image7 {
-  width: 599px;
-  height: 280px;
-  position: absolute;
-  left: 0;
-  top: -17px;
-  background-image:/* webpackIgnore: true */ url("assets/image7.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.shadowWarrior3 {
+.gameTitle {
   color: #fff;
   font-size: 28px;
   line-height: 95.6%;
@@ -42,7 +31,7 @@
   top: 53px;
   white-space: nowrap;
 }
-._1190 {
+.gamePrice {
   color: #fff;
   font-size: 48px;
   line-height: 95.6%;
@@ -55,7 +44,7 @@
   top: 164px;
   white-space: nowrap;
 }
-.actionFPSAdventureShooter {
+.gameGenre {
   opacity: 0.5;
   color: #fff;
   font-size: 20px;
@@ -68,7 +57,7 @@
   top: 92px;
   white-space: nowrap;
 }
-.rectangle10 {
+.rectangle {
   width: 127px;
   height: 10px;
   position: absolute;
@@ -84,14 +73,16 @@
   left: 1226px;
   top: 47px;
 }
-.frame23 {
-  width: 1300px;
-  height: 245px;
-  align-items: flex-start;
-  position: relative;
-  border-radius: 30px;
-  background-color: #17202d;
-  overflow: hidden;
+.image7 {
+  width: 599px;
+  height: 280px;
+  position: absolute;
+  left: 0;
+  top: -17px;
+  background-image:/* webpackIgnore: true */ url("assets/image7.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .image72 {
   width: 599px;
@@ -104,70 +95,6 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.bartonLynchProSurfing2022 {
-  color: #fff;
-  font-size: 28px;
-  line-height: 95.6%;
-  font-weight: 600;
-  font-family: Noto Sans, system-ui, -apple-system, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  align-items: center;
-  position: absolute;
-  left: 650px;
-  top: 53px;
-  white-space: nowrap;
-}
-._650 {
-  color: #fff;
-  font-size: 48px;
-  line-height: 95.6%;
-  font-weight: bold;
-  font-family: Noto Sans, system-ui, -apple-system, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  align-items: center;
-  position: absolute;
-  left: 1114px;
-  top: 165px;
-  white-space: nowrap;
-}
-.sportActionSimulationPhysics {
-  opacity: 0.5;
-  color: #fff;
-  font-size: 20px;
-  line-height: 95.6%;
-  font-family: Arial, system-ui, -apple-system, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  align-items: center;
-  position: absolute;
-  left: 650px;
-  top: 92px;
-  white-space: nowrap;
-}
-.rectangle102 {
-  width: 127px;
-  height: 10px;
-  position: absolute;
-  left: 650px;
-  top: 136px;
-  border-radius: 20px;
-  background-color: #214b6b;
-}
-.frame2 {
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  left: 1226px;
-  top: 47px;
-}
-.frame22 {
-  width: 1300px;
-  height: 245px;
-  align-items: flex-start;
-  position: relative;
-  border-radius: 30px;
-  background-color: #17202d;
-  overflow: hidden;
-}
 .image73 {
   width: 599px;
   height: 280px;
@@ -178,70 +105,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-.tHEKINGOFFIGHTERSXV {
-  color: #fff;
-  font-size: 28px;
-  line-height: 95.6%;
-  font-weight: 600;
-  font-family: Noto Sans, system-ui, -apple-system, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  align-items: center;
-  position: absolute;
-  left: 650px;
-  top: 53px;
-  white-space: nowrap;
-}
-._5999 {
-  color: #fff;
-  font-size: 48px;
-  line-height: 95.6%;
-  font-weight: bold;
-  font-family: Noto Sans, system-ui, -apple-system, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  align-items: center;
-  position: absolute;
-  left: 1115px;
-  top: 164px;
-  white-space: nowrap;
-}
-.action2DFighterPvPFighting {
-  opacity: 0.5;
-  color: #fff;
-  font-size: 20px;
-  line-height: 95.6%;
-  font-family: Arial, system-ui, -apple-system, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  align-items: center;
-  position: absolute;
-  left: 650px;
-  top: 92px;
-  white-space: nowrap;
-}
-.rectangle103 {
-  width: 127px;
-  height: 10px;
-  position: absolute;
-  left: 650px;
-  top: 136px;
-  border-radius: 20px;
-  background-color: #214b6b;
-}
-.frame3 {
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  left: 1226px;
-  top: 47px;
-}
-.frame24 {
-  width: 1300px;
-  height: 245px;
-  align-items: flex-start;
-  position: relative;
-  border-radius: 30px;
-  background-color: #17202d;
-  overflow: hidden;
 }
 .image74 {
   width: 599px;
@@ -254,70 +117,6 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.eLDENRING {
-  color: #fff;
-  font-size: 28px;
-  line-height: 95.6%;
-  font-weight: 600;
-  font-family: Noto Sans, system-ui, -apple-system, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  align-items: center;
-  position: absolute;
-  left: 650px;
-  top: 53px;
-  white-space: nowrap;
-}
-._59992 {
-  color: #fff;
-  font-size: 48px;
-  line-height: 95.6%;
-  font-weight: bold;
-  font-family: Noto Sans, system-ui, -apple-system, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  align-items: center;
-  position: absolute;
-  left: 1115px;
-  top: 164px;
-  white-space: nowrap;
-}
-.soulsLikeRelaxingDarkFantasyRP {
-  opacity: 0.5;
-  color: #fff;
-  font-size: 20px;
-  line-height: 95.6%;
-  font-family: Arial, system-ui, -apple-system, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  align-items: center;
-  position: absolute;
-  left: 650px;
-  top: 92px;
-  white-space: nowrap;
-}
-.rectangle104 {
-  width: 127px;
-  height: 10px;
-  position: absolute;
-  left: 650px;
-  top: 136px;
-  border-radius: 20px;
-  background-color: #214b6b;
-}
-.frame4 {
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  left: 1226px;
-  top: 47px;
-}
-.frame25 {
-  width: 1300px;
-  height: 245px;
-  align-items: flex-start;
-  position: relative;
-  border-radius: 30px;
-  background-color: #17202d;
-  overflow: hidden;
-}
 .image75 {
   width: 599px;
   height: 280px;
@@ -328,61 +127,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-.ghostwireTokyo {
-  color: #fff;
-  font-size: 28px;
-  line-height: 95.6%;
-  font-weight: 600;
-  font-family: Noto Sans, system-ui, -apple-system, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  align-items: center;
-  position: absolute;
-  left: 650px;
-  top: 53px;
-  white-space: nowrap;
-}
-._59993 {
-  color: #fff;
-  font-size: 48px;
-  line-height: 95.6%;
-  font-weight: bold;
-  font-family: Noto Sans, system-ui, -apple-system, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  align-items: center;
-  position: absolute;
-  left: 1115px;
-  top: 164px;
-  white-space: nowrap;
-}
-.singleplayerSupernaturalFirstP {
-  opacity: 0.5;
-  color: #fff;
-  font-size: 20px;
-  line-height: 95.6%;
-  font-family: Arial, system-ui, -apple-system, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  align-items: center;
-  position: absolute;
-  left: 650px;
-  top: 91px;
-  white-space: nowrap;
-}
-.rectangle105 {
-  width: 127px;
-  height: 10px;
-  position: absolute;
-  left: 650px;
-  top: 145px;
-  border-radius: 20px;
-  background-color: #214b6b;
-}
-.frame5 {
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  left: 1226px;
-  top: 47px;
 }
 .eosIconsLoading1 {
   width: 53px;
