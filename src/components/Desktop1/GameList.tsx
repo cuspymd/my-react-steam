@@ -2,7 +2,6 @@ import { FC, memo } from "react";
 
 import classes from "./GameList.module.css";
 import { Eosiconsloading1Icon } from "./Eosiconsloading1Icon";
-import { FrameIcon } from "./FrameIcon";
 import { GameFrame } from "./GameFrame";
 import { Game } from "../../interfaces/Game";
 
