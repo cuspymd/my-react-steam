@@ -12,6 +12,6 @@ const supabase = createClient(supabaseUrl, supabaseAnonKey, {
 });
 
 export async function getGames() {
-  const res = await supabase.from<Game>("steam").select("*").limit(5);
+  const res = await supabase.from<Game>("steam").select("*").limit(20);
   return res.data || [];
 }

@@ -1,11 +1,9 @@
 .root {
-  height: 2486px;
   flex: 1;
   align-self: stretch;
   align-items: flex-start;
   position: relative;
   background-color: #1b2837;
-  overflow: hidden;
 }
 .ellipse7 {
   width: 867px;

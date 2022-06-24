@@ -19,6 +19,9 @@
   left: 650px;
   top: 53px;
   white-space: nowrap;
+  width: 43%;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .gamePrice {
   color: #fff;
