@@ -12,7 +12,7 @@ export const GameFrame: FC<Props> = memo(function Header(props) {
   const game: Game = props.game;
 
   return (
-    <div className={`${classes.gameFrame}`} key={game.id}>
+    <div className={`${classes.gameFrame}`}>
       <div
         className={`${classes.image}`}
         style={{ backgroundImage: `url(${game.image})` }}
