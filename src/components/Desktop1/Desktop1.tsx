@@ -1,4 +1,4 @@
-import { FC, memo } from "react";
+import { FC, memo, useState } from "react";
 
 import classes from "./Desktop1.module.css";
 import { Ellipse7Icon } from "./Ellipse7Icon";
@@ -14,10 +14,11 @@ interface Props {
   };
 }
 export const Desktop1: FC<Props> = memo(function Desktop1(props = {}) {
+  const [searchText, setSearchText] = useState<string>("");
   return (
     <div className={`${classes.root} ${props.className || ""}`}>
-      <GameList />
-      <NewTrending />
+      <GameList searchText={searchText} />
+      <NewTrending onSearchTextChange={(text) => setSearchText(text)} />
       <Ellipse7Icon
         className={`${classes.ellipse7} ${props.classes?.ellipse7 || ""}`}
       />

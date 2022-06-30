@@ -1,7 +1,8 @@
-import { FC, memo } from "react";
+import { FC, memo, useState, ChangeEvent } from "react";
 
 import classes from "./NewTrending.module.css";
 import { VectorIcon } from "./VectorIcon";
+import { getGames } from "../../clients/supabaseClient";
 
 interface Props {
   className?: string;
@@ -18,50 +19,31 @@ interface Props {
     sortBy?: string;
     vector?: string;
   };
+  onSearchTextChange?(text: string): void;
 }
 export const NewTrending: FC<Props> = memo(function NewTrending(props = {}) {
+  const searchGame = (event: ChangeEvent<HTMLInputElement>) => {
+    if (props.onSearchTextChange) {
+      props.onSearchTextChange(event.target.value);
+    }
+  };
+
   return (
-    <div
-      className={`${classes.newTrending} ${props.classes?.newTrending || ""}`}
-    >
-      <div
-        className={`${classes.rectangle8} ${props.classes?.rectangle8 || ""}`}
-      ></div>
-      <div
-        className={`${classes.newTrending2} ${
-          props.classes?.newTrending2 || ""
-        }`}
-      >
-        New &amp; Trending
-      </div>
-      <div
-        className={`${classes.rectangle9} ${props.classes?.rectangle9 || ""}`}
-      ></div>
-      <div
-        className={`${classes.rectangle11} ${props.classes?.rectangle11 || ""}`}
-      ></div>
-      <div className={`${classes.search} ${props.classes?.search || ""}`}>
-        Search
-      </div>
-      <div
-        className={`${classes.rectangle112} ${
-          props.classes?.rectangle112 || ""
-        }`}
-      ></div>
-      <div className={`${classes.price} ${props.classes?.price || ""}`}>
-        Price
-      </div>
-      <div
-        className={`${classes.majesticonsChevronDownLine1} ${
-          props.classes?.majesticonsChevronDownLine1 || ""
-        }`}
-      ></div>
-      <div className={`${classes.sortBy} ${props.classes?.sortBy || ""}`}>
-        Sort by:
-      </div>
-      <VectorIcon
-        className={`${classes.vector} ${props.classes?.vector || ""}`}
+    <div className={`${classes.newTrending}`}>
+      <div className={`${classes.rectangle8}`}></div>
+      <div className={`${classes.newTrending2}`}>New &amp; Trending</div>
+      <div className={`${classes.rectangle9}`}></div>
+      <div className={`${classes.rectangle11}`}></div>
+      <input
+        type="text"
+        className={`${classes.search}`}
+        onChange={searchGame}
       />
+      <div className={`${classes.rectangle112}`}></div>
+      <div className={`${classes.price}`}>Price</div>
+      <div className={`${classes.majesticonsChevronDownLine1}`}></div>
+      <div className={`${classes.sortBy}`}>Sort by:</div>
+      <VectorIcon className={`${classes.vector}`} />
     </div>
   );
 });

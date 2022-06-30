@@ -6,16 +6,18 @@ import { GameFrame } from "./GameFrame";
 import { Game } from "../../interfaces/Game";
 import { getGames } from "../../clients/supabaseClient";
 
-interface Props {}
+interface Props {
+  searchText?: string;
+}
 
 export const GameList: FC<Props> = memo(function GameList(props = {}) {
   const [games, setGames] = useState<Game[]>([]);
   useEffect(() => {
-    getGames().then((_games) => {
+    getGames(props.searchText).then((_games) => {
       console.log(_games);
       setGames(_games);
     });
-  }, []);
+  }, [props.searchText]);
 
   return (
     <div className={`${classes.frame20}`}>

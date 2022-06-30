@@ -11,7 +11,12 @@ const supabase = createClient(supabaseUrl, supabaseAnonKey, {
   }
 });
 
-export async function getGames() {
-  const res = await supabase.from<Game>("steam").select("*").limit(20);
+export async function getGames(searchText?: string) {
+  const query = supabase.from<Game>("steam").select("*").limit(20);
+  if (searchText) {
+    query.ilike("title", searchText + "%");
+  }
+
+  const res = await query;
   return res.data || [];
 }
